@@ -2,7 +2,7 @@
  * @api {post} /userko Hello World
  * @apiVersion 0.3.0
  * @apiName PostUser
- * @apiGroup JojoTest
+ * @apiGroup login
  * @apiPermission none
  * @apiSampleRequest off
  * 
@@ -14,6 +14,12 @@
  * @apiParam {Boolean} male are a male.
  * @apiParam {String} love_anjo si ____
  * @apiSuccess {Number} id         The new Users-ID.
+ * 
+ * @apiParamExample {json} Request-Example:
+ *     {
+ *       "id": 4711,
+ *       "name": "jojo_ko"
+ *     }
  *
  * @apiUse CreateUserError
  */

@@ -43,47 +43,5 @@ Open example folder `path/project_name/example` create new folder `api_name` and
  */
 ```
 
-## Example
-
-```javascript
-/**
- * @api {get} /user/:id Request User information
- * @apiName GetUser
- * @apiGroup User
- *
- * @apiParam {Number} id Users unique ID.
- *
- * @apiSuccess {String} firstname Firstname of the User.
- * @apiSuccess {String} lastname  Lastname of the User.
- */
-```
-
-`apidoc -i example/ -o doc/`
-
-Creates from input files in `example/` a documentation in path `doc/`.
-
-
-More examples and best practice hints: [EXAMPLES.md](https://github.com/apidoc/apidoc/blob/master/EXAMPLES.md)
-
-
-## Supported programming languages
-
- * **C#, Go, Dart, Java, JavaScript, PHP, Scala** (all DocStyle capable languages):
-
-   ```javascript
-   /**
-     * This is a comment.
-     */
-   ```
-
-
-## FAQ
-
-* [Filter for public / private API](https://github.com/apidoc/grunt-apidoc/issues/27#issuecomment-147664797)
-
-
-## Extend apiDoc and write your own Plugin
-
-For details and an example view [apidoc-plugin-test](https://github.com/apidoc/apidoc-plugin-test)
 
 
