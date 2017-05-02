@@ -1,0 +1,20 @@
+{
+  "name": "Megawide",
+  "version": "0.0.1",
+  "description": "apidoc Project Megawide",
+  "title": "Custom apiDoc browser title",
+  "url" : "https://www.yondu.com/v1",
+  "sampleUrl": "https://www.yondu.com/v1",
+  "header": {
+    "title": "My own header title",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "My own footer title",
+    "filename": "footer.md"
+  },
+  "template": {
+  	"withCompare": false,
+  	"withGenerator": false
+  }
+}
