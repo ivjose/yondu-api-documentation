@@ -2,7 +2,7 @@
  * @api {post} /userko Hello World
  * @apiVersion 0.3.0
  * @apiName PostUser
- * @apiGroup Jojo
+ * @apiGroup JojoTest
  * @apiPermission none
  * @apiSampleRequest off
  * 
