@@ -17,7 +17,14 @@ Documentation at [apidocjs.com](http://apidocjs.com) or as [Docset](https://gith
 
 `git clone https://github.com/ivjose/yondu-api-documentation <Project Name>`
 
-Go to path directory 
+Go to path directory Created
+
+`path/project_name`
+
+type in command line to `npm install` install package dependencies
+
+type `gulp` to run api docs
+
 
 ## Changelog
 
