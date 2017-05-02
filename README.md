@@ -1,10 +1,6 @@
-# apiDoc
+# Yondu RESTful API Documentation
 
 Generates a RESTful web API Documentation.
-
-[![Build Status](https://travis-ci.org/apidoc/apidoc.svg?branch=master)](https://travis-ci.org/apidoc/apidoc)
-[![Dependency Status](https://david-dm.org/apidoc/apidoc.svg)](https://david-dm.org/apidoc/apidoc)
-[![NPM version](https://badge.fury.io/js/apidoc.svg)](http://badge.fury.io/js/apidoc)
 
 **Changes from previous version visit [CHANGELOG.md](https://github.com/apidoc/apidoc/blob/master/CHANGELOG.md)**
 
@@ -58,59 +54,6 @@ More examples and best practice hints: [EXAMPLES.md](https://github.com/apidoc/a
      */
    ```
 
- * **Clojure**:
-
-   ```clojure
-   ;;;;
-   ;; This is a comment.
-   ;;;;
-   ```
-
- * **CoffeeScript**:
-
-   ```coffeescript
-   ###
-   This is a comment.
-   ###
-   ```
-
- * **Erlang**:
-
-   ```erlang
-   %{
-   This is a comment.
-   %}
-   ```
-
- * **Perl**
-
-   ```perl
-   #**
-   # This is a comment.
-   #*
-   ```
-
-   ```perl
-   =pod
-   This is a comment.
-   =cut
-   ```
-
- * **Python**
-
-   ```python
-   """
-   This is a comment.
-   """
-   ```
-
- * **Ruby**
-
-   ```ruby
-   =begin
-   This is a comment.
-   =end
-   ```
 
 ## Plugins (extend apiDoc)
 
@@ -119,28 +62,6 @@ apiDoc will auto include installed plugins.
  * [apidoc-plugin-schema](https://github.com/willfarrell/apidoc-plugin-schema) Generates and inject apidoc elements from api schemas. `npm install apidoc-plugin-schema`
 
 
-## Build tools
-
-* [flask-apidoc](https://pypi.python.org/pypi/flask-apidoc/) `pip install flask-apidoc`
-* [grunt-apidoc](https://github.com/apidoc/grunt-apidoc) `npm install grunt-apidoc`.
-* [gapidoc (gulp)](https://github.com/techgaun/gulp-apidoc) `npm install gapidoc`.
-* [gulp-apidoc](https://github.com/ayhankuru/gulp-apidoc) `npm install gulp-apidoc`.
-* [gulp-apidocjs](https://github.com/apriendeau/gulp-apidocjs) `npm install gulp-apidocjs`.
-
-
-## Integration
-
-* [Eclipse Java apiDoc editor templates](https://github.com/skhani/eclipse_java_apiDoc_templates)
-* [Eclipse plugin](https://github.com/DWand/eclipse_pdt_apiDoc_editor_templates)
-* [Microsoft WebAPI](https://github.com/chehabz/grunt-edge-apidoc-webapi-generator)
-* [Sublime Text plugin](https://github.com/DWand/ST3_apiDocAutocompletion)
-
-
-## Converter
-
-* [apidoc-swagger](https://github.com/fsbahman/apidoc-swagger)
-* [gulp-apidoc-swagger](https://github.com/fsbahman/gulp-apidoc-swagger)
-* [Docmaster](https://github.com/bonzzy/docmaster)
 
 ## FAQ
 
@@ -152,11 +73,3 @@ apiDoc will auto include installed plugins.
 For details and an example view [apidoc-plugin-test](https://github.com/apidoc/apidoc-plugin-test)
 
 
-## Help
-
-Please add [issues](https://github.com/apidoc/apidoc/issues) if you have a question or found a problem.
-Pull requests are welcome too!
-
-A chat about apiDoc is on [Gitter](https://gitter.im/apidoc/talk).
-
-[![Gitter chat](https://badges.gitter.im/apidoc/talk.png)](https://gitter.im/apidoc/talk)
