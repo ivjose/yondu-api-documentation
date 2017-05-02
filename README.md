@@ -21,15 +21,27 @@ Go to path directory Created
 
 `path/project_name`
 
-type in command line to `npm install` install package dependencies
+Type in command line `npm install` to install package dependencies
 
-type `gulp` to run api docs
+Type `gulp` to run api docs
 
 
-## Changelog
+## Creating new Api Document
 
-[CHANGELOG.md](https://github.com/apidoc/apidoc/blob/master/CHANGELOG.md)
+Open example folder `path/project_name/example` create new folder `api_name` and inside the folder create new js file `api_name.js`
 
+```javascript
+/**
+ * @api {get} /user/:id Request User information
+ * @apiName GetUser
+ * @apiGroup User
+ *
+ * @apiParam {Number} id Users unique ID.
+ *
+ * @apiSuccess {String} firstname Firstname of the User.
+ * @apiSuccess {String} lastname  Lastname of the User.
+ */
+```
 
 ## Example
 
