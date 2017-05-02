@@ -14,7 +14,7 @@ Documentation at [apidocjs.com](http://apidocjs.com) or as [Docset](https://gith
 ## Installation
 
 `npm install apidoc -g`
-
+`git clone https://github.com/ivjose/yondu-api-documentation <Project Name>`
 
 ## Changelog
 
@@ -53,14 +53,6 @@ More examples and best practice hints: [EXAMPLES.md](https://github.com/apidoc/a
      * This is a comment.
      */
    ```
-
-
-## Plugins (extend apiDoc)
-
-apiDoc will auto include installed plugins.
-
- * [apidoc-plugin-schema](https://github.com/willfarrell/apidoc-plugin-schema) Generates and inject apidoc elements from api schemas. `npm install apidoc-plugin-schema`
-
 
 
 ## FAQ
