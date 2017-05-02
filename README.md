@@ -14,7 +14,10 @@ Documentation at [apidocjs.com](http://apidocjs.com) or as [Docset](https://gith
 ## Installation
 
 `npm install apidoc -g`
+
 `git clone https://github.com/ivjose/yondu-api-documentation <Project Name>`
+
+Go to path directory 
 
 ## Changelog
 
