@@ -8,6 +8,16 @@ apiDoc creates a documentation from API descriptions in your source code.
 
 Documentation at [apidocjs.com](http://apidocjs.com) or as [Docset](https://github.com/pfefferle/dash-apidoc).
 
+## Useful Link
+
+[APIDOC | Inline Documentation for RESTful web APIs](http://apidocjs.com/)
+
+[Standard Error Responses](https://developers.google.com/doubleclick-search/v2/standard-error-responses)
+
+[RESTful API Designing guidelines — The best practices](https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9)
+
+[A SPECIFICATION FOR BUILDING APIS IN JSON](http://jsonapi.org/)
+
 [Example](http://apidocjs.com/example/) output.
 
 

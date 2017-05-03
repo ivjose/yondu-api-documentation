@@ -12,7 +12,6 @@
 // ------------------------------------------------------------------------------------------
 /**
  * @apiDefine CreateUserError
- * @apiVersion 0.2.0
  *
  * @apiError NoAccessRight Only authenticated Admins can access the data.
  * @apiError UserNameTooShort Minimum of 5 characters required.
@@ -23,6 +22,8 @@
  *       "error": "UserNameTooShort"
  *     }
  */
+
+
 
 
 // ------------------------------------------------------------------------------------------

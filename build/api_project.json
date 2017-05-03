@@ -1,13 +1,13 @@
 {
   "name": "Megawide",
   "version": "0.0.1",
-  "description": "apidoc Project Megawide",
+  "description": "Api Documentation Project Megawide",
   "title": "Custom apiDoc browser title",
-  "url": "https://www.yondu.com/v1",
-  "sampleUrl": "https://www.yondu.com/v1",
+  "url": "https://www.megawide.com",
+  "sampleUrl": "https://www.megawide.com",
   "header": {
     "title": "My own header title",
-    "content": "<h1>Example text from header.md</h1>\n<p>This text is from file &quot;header.md&quot;.</p>\n<h2><span id=\"api-example-for-a-submenu-entry\">HowTo include</span></h2>\n<p>In your projects &quot;package.json&quot; you can set &quot;apidoc.header&quot; with a title and a filename to include this file into your documentation.</p>\n<p>This example attempts to integrate &quot;header.md&quot; and &quot;footer.md&quot;.</p>\n<pre><code>{\n  &quot;name&quot;: &quot;examples&quot;,\n  &quot;version&quot;: &quot;0.3.0&quot;,\n  &quot;description&quot;: &quot;apidoc example project.&quot;,\n  &quot;apidoc&quot;: {\n    &quot;header&quot;: {\n      &quot;title&quot;: &quot;My own header title&quot;,\n      &quot;filename&quot;: &quot;header.md&quot;\n    },\n    &quot;footer&quot;: {\n      &quot;title&quot;: &quot;My own footer title&quot;,\n      &quot;filename&quot;: &quot;footer.md&quot;\n    }\n  }\n}\n</code></pre>\n"
+    "content": "<h1>Guidelines and Documentation for RESTful API</h1>\n<h2><span id=\"api-example-for-a-submenu-entry\">HowTo include</span></h2>\n<p>In your projects &quot;package.json&quot; you can set &quot;apidoc.header&quot; with a title and a filename to include this file into your documentation.</p>\n<p>This example attempts to integrate &quot;header.md&quot; and &quot;footer.md&quot;.</p>\n<pre><code>{\n  &quot;name&quot;: &quot;examples&quot;,\n  &quot;version&quot;: &quot;0.3.0&quot;,\n  &quot;description&quot;: &quot;apidoc example project.&quot;,\n  &quot;apidoc&quot;: {\n    &quot;header&quot;: {\n      &quot;title&quot;: &quot;My own header title&quot;,\n      &quot;filename&quot;: &quot;header.md&quot;\n    },\n    &quot;footer&quot;: {\n      &quot;title&quot;: &quot;My own footer title&quot;,\n      &quot;filename&quot;: &quot;footer.md&quot;\n    }\n  }\n}\n</code></pre>\n"
   },
   "footer": {
     "title": "My own footer title",
@@ -21,7 +21,7 @@
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2017-05-02T02:37:36.024Z",
+    "time": "2017-05-03T09:24:12.448Z",
     "url": "http://apidocjs.com",
     "version": "0.17.5"
   }

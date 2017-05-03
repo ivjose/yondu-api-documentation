@@ -23,7 +23,7 @@ gulp.task('apidoc', function (done) {
 gulp.task('watch', function () {
     gulp.watch('./example/{*.js,*.json,*.md}', ['apidoc']);
     gulp.watch('./example/{**/*.js,**/*.json,**/*.md}', ['apidoc']);
-    gulp.watch('./example/{*.js,*.json,*.md}', browserSync.reload);
+    gulp.watch('./example/{*.js,*.json,*.md,**/*.js}', browserSync.reload);
 });
 
 // Default Task

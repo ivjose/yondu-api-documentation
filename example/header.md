@@ -1,6 +1,5 @@
-# Example text from header.md
+# Guidelines and Documentation for RESTful API
 
-This text is from file "header.md".
 
 ## <span id="api-example-for-a-submenu-entry">HowTo include</span>
 
