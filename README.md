@@ -25,6 +25,8 @@ Documentation at [apidocjs.com](http://apidocjs.com) or as [Docset](https://gith
 
 `npm install apidoc -g`
 
+`npm install gulp-cli -g`
+
 `git clone https://github.com/ivjose/yondu-api-documentation <Project Name>`
 
 Go to path directory Created
@@ -35,6 +37,13 @@ Type in command line `npm install` to install package dependencies
 
 Type `gulp` to run api docs
 
+## Server Set up
+
+`npm install pm2 -g`
+
+server up
+
+`npm server`
 
 ## Creating new Api Document
 

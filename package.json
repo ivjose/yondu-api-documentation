@@ -20,7 +20,8 @@
     "jshint": "jshint lib/ test/",
     "build-example": "bin/apidoc -i example/ -o tmp/",
     "check-updates": "npm-check-updates",
-    "update-lodash": "./node_modules/lodash-cli/bin/lodash -p -o template/vendor/lodash.custom.min.js include=groupBy,each,extend,some exports=amd"
+    "update-lodash": "./node_modules/lodash-cli/bin/lodash -p -o template/vendor/lodash.custom.min.js include=groupBy,each,extend,some exports=amd",
+    "server": "pm2 start api-docs-server.js"
   },
   "keywords": [
     "api",
@@ -35,11 +36,13 @@
   },
   "dependencies": {
     "apidoc-core": "~0.8.1",
+    "express": "^4.16.0",
     "fs-extra": "~2.0.0",
     "gulp": "^3.9.1",
     "lodash": "~4.17.4",
     "markdown-it": "^8.2.2",
     "nomnom": "~1.8.1",
+    "npm": "^3.10.8",
     "winston": "~2.3.1"
   },
   "devDependencies": {
